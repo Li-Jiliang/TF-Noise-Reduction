@@ -58,7 +58,7 @@ The U8K dataset contains 8732 audio files of urban sounds in WAV format. The sam
 
 ## Feature Design
 
-![Dataset Structure](/images/dataset_example.png)
+![Dataset Structure](/images/LSTM_Dataset.png)
 
 As previously mentioned the samples from the MCV dataset have noise reduction applied to them in the pre-processing stage in order to make them into an acceptable target for the neural network.
 
@@ -80,10 +80,11 @@ Finally, taking the above into account input to the neural network is as below:
 - Time Steps are the time axis of the STFT
 - Features are the Magnitudes at each STFT time step.
 
-With the STFT of the signals being computed with the following parameters:
-• Window Length: 512
-• Overlap: 128
-• FFT Length: 512
+With the STFT of the signals being computed with the following parameters:  
+
+• Window Length: 512  
+• Overlap: 128  
+• FFT Length: 512  
 
 ## Phase Recovery
 
