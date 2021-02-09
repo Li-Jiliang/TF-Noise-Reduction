@@ -126,6 +126,6 @@ One important factor to note is that the final iteration output of the Griffin-L
 
 ### Comparisons
 ### Original Singal vs NN Ouput + phase from original (noisy signal)
-![Model Layers](comparison.png)
+![Model Layers](/images/comparison.png)
 ### Original Singal vs NN Ouput + phase computed using Griffin-Lim approximation
-![Model Layers](comparison1.png)
+![Model Layers](/images/comparison1.png)
